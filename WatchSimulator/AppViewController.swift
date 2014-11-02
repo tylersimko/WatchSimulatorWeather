@@ -32,8 +32,8 @@ override func didReceiveMemoryWarning() {
 }
 
 func getCurrentWeatherData() -> Void {
-    let baseURL = NSURL(string: "https://api.forecast.io/forecast/3f60bce32cdff52c184189c2db6c0007/\(apiKey)")
-    let forecastURL = NSURL(string: "40.484089,-74.283029", relativeToURL: baseURL)
+    //https://api.forecast.io/forecast/3f60bce32cdff52c184189c2db6c0007/37.8267,-122.423
+    let forecastURL = NSURL(string: "https://api.forecast.io/forecast/\(apiKey)/40.484089,-74.283029")
     println(forecastURL)
     
     let sharedSession = NSURLSession.sharedSession()
