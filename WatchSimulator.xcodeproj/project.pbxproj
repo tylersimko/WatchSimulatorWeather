@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7696904019EB08F400F133C8 /* AppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7696903F19EB08F400F133C8 /* AppViewController.swift */; };
 		76FECB4719D742CA00639284 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FECB4619D742CA00639284 /* AppDelegate.swift */; };
 		76FECB4919D742CA00639284 /* HardwareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FECB4819D742CA00639284 /* HardwareViewController.swift */; };
 		76FECB4C19D742CA00639284 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76FECB4A19D742CA00639284 /* Main.storyboard */; };
-		76FECB4E19D742CA00639284 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76FECB4D19D742CA00639284 /* Images.xcassets */; };
 		76FECB5119D742CA00639284 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76FECB4F19D742CA00639284 /* LaunchScreen.xib */; };
 		76FECB5D19D742CA00639284 /* WatchSimulatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FECB5C19D742CA00639284 /* WatchSimulatorTests.swift */; };
 		81C9AD5319F793B400475C49 /* JBForceTouchGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 81C9AD5219F793B400475C49 /* JBForceTouchGestureRecognizer.m */; };
 		A2ECA4FA1A020D6000B3D56F /* CurrentWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2ECA4F91A020D5F00B3D56F /* CurrentWeather.swift */; };
+		A2FAE81F1A6852AA00121228 /* AppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2FAE81E1A6852AA00121228 /* AppViewController.swift */; };
+		A2FAE8211A6852B500121228 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2FAE8201A6852B500121228 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +29,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7696903F19EB08F400F133C8 /* AppViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppViewController.swift; path = /Users/tylersimko/Documents/Swift/WatchSimulator/WatchSimulator/AppViewController.swift; sourceTree = "<absolute>"; };
 		76FECB4119D742C900639284 /* WatchSimulator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchSimulator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		76FECB4519D742C900639284 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		76FECB4619D742CA00639284 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		76FECB4819D742CA00639284 /* HardwareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HardwareViewController.swift; sourceTree = "<group>"; };
 		76FECB4B19D742CA00639284 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		76FECB4D19D742CA00639284 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = /Users/tylersimko/Documents/Swift/WatchSimulator/WatchSimulator/Images.xcassets; sourceTree = "<absolute>"; };
 		76FECB5019D742CA00639284 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		76FECB5619D742CA00639284 /* WatchSimulatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WatchSimulatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		76FECB5B19D742CA00639284 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -43,6 +41,8 @@
 		81C9AD5119F793B400475C49 /* JBForceTouchGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBForceTouchGestureRecognizer.h; sourceTree = "<group>"; };
 		81C9AD5219F793B400475C49 /* JBForceTouchGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBForceTouchGestureRecognizer.m; sourceTree = "<group>"; };
 		A2ECA4F91A020D5F00B3D56F /* CurrentWeather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentWeather.swift; sourceTree = "<group>"; };
+		A2FAE81E1A6852AA00121228 /* AppViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppViewController.swift; sourceTree = "<group>"; };
+		A2FAE8201A6852B500121228 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,9 +86,9 @@
 			children = (
 				76FECB4619D742CA00639284 /* AppDelegate.swift */,
 				76FECB4819D742CA00639284 /* HardwareViewController.swift */,
-				7696903F19EB08F400F133C8 /* AppViewController.swift */,
+				A2FAE81E1A6852AA00121228 /* AppViewController.swift */,
 				76FECB4A19D742CA00639284 /* Main.storyboard */,
-				76FECB4D19D742CA00639284 /* Images.xcassets */,
+				A2FAE8201A6852B500121228 /* Images.xcassets */,
 				A2ECA4F91A020D5F00B3D56F /* CurrentWeather.swift */,
 				76FECB4F19D742CA00639284 /* LaunchScreen.xib */,
 				81C9AD5419F793C800475C49 /* Force Touch */,
@@ -212,8 +212,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				76FECB4C19D742CA00639284 /* Main.storyboard in Resources */,
+				A2FAE8211A6852B500121228 /* Images.xcassets in Resources */,
 				76FECB5119D742CA00639284 /* LaunchScreen.xib in Resources */,
-				76FECB4E19D742CA00639284 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,11 +231,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2FAE81F1A6852AA00121228 /* AppViewController.swift in Sources */,
 				76FECB4919D742CA00639284 /* HardwareViewController.swift in Sources */,
 				81C9AD5319F793B400475C49 /* JBForceTouchGestureRecognizer.m in Sources */,
 				A2ECA4FA1A020D6000B3D56F /* CurrentWeather.swift in Sources */,
 				76FECB4719D742CA00639284 /* AppDelegate.swift in Sources */,
-				7696904019EB08F400F133C8 /* AppViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
